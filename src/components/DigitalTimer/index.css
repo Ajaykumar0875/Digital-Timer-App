@@ -1,0 +1,134 @@
+.bg-container {
+  height: 100vh;
+  background: linear-gradient(to top, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.timer-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-image {
+  width: 30vw;
+  height: auto;
+}
+
+.clock-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00ffaa;
+  margin: 0px auto;
+}
+
+.status-text {
+  font-size: 14px;
+  margin: 0px auto;
+
+  color: #555555;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Controls Section */
+.controls-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.start-reset {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bot {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.controller {
+  height: 30px;
+}
+
+.timer-limit-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.timer-limit-text {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.adjuster {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.adjust-btn {
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: black;
+}
+
+.timer-limit {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #00ffaa;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
