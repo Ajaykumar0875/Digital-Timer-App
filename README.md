@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# Digital-Timer-App
+This project is a countdown timer where users can start, pause, and reset the timer. The timer decreases every second when running and displays the elapsed or remaining time. Users can adjust the timer limit, but only when it is paused.
+=======
+>>>>>>> Initial commit
 In this project, let's build a **Digital Timer App** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
@@ -153,3 +160,10 @@ Use these files to complete the implementation:
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
 > - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+<<<<<<< HEAD
+=======
+>>>>>>> Initial commit
+git add README.md
+
+
+>>>>>>> Initial commit
